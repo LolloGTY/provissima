@@ -17,7 +17,7 @@
             <ul class="menu">
               <li><a href="index.html"  style="font-family: cursive;  font-size: 30px; color: #4bb1e9">Home</a></li>
               <li><a href="info.html" style="font-family: cursive;  font-size: 30px; color: #4bb1e9">Info</a></li>
-              <li><a href=""  style="font-family: cursive;  font-size: 30px; color: #4bb1e9">Contact</a></li>
+              <li><a href="contatti.html"  style="font-family: cursive;  font-size: 30px; color: #4bb1e9">Contatti</a></li>
             </ul>
             <div class="cta">
               <a href="index.html" class="button"  style="font-family: cursive;"> Home</a>
@@ -31,7 +31,7 @@
     </div>
     <div class="poster mt-3">
         <div class="poster__img reveal">
-          <img src="bg-video.png" alt="">
+          <img src="" alt="">
         </div>
         <div class="poster__content reveal">
           <h3 class="big-text">Doposcuola</h3>
@@ -49,5 +49,48 @@
           <a href="" class="button"> Call to action</a>
         </div>
       </div>
-</body>
+      <div class="bg-cover mt-3">
+        <div class="bg-cover__title reveal">
+          <h3 class="big-text tw">crediti</h3>
+        </div>
+        <div class="bg-cover__text reveal">
+    
+          <h4 class="normal-text tw">crediti</h4>
+          <p class="tw">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt molestias dolor, vel provident a est hic cupiditate ea. Eveniet quod distinctio asperiores ullam dignissimos nulla illum impedit enim aliquid ratione.</p>
+    
+          <h4 class="normal-text tw">crediti</h4>
+          <p class="tw">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt molestias dolor, vel provident a est hic cupiditate ea. Eveniet quod distinctio asperiores ullam dignissimos nulla illum impedit enim aliquid ratione.</p>
+    
+          <h4 class="normal-text tw">crediti</h4>
+          <p class="tw">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt molestias dolor, vel provident a est hic cupiditate ea. Eveniet quod distinctio asperiores ullam dignissimos nulla illum impedit enim aliquid ratione.</p>
+    
+        </div>
+      </div>
+       <!-- Jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.1/flickity.pkgd.min.js" integrity="sha512-Nx/M3T/fWprNarYOrnl+gfWZ25YlZtSNmhjHeC0+2gCtyAdDFXqaORJBj1dC427zt3z/HwkUpPX+cxzonjUgrA==" crossorigin="anonymous"></script>
+
+  <script>
+  $( document ).ready(function() {
+
+    /* Open Panel */
+    $( ".hamburger" ).on('click', function() {
+      $(".menu").toggleClass("menu--open");
+    });
+
+  });
+
+
+  ScrollReveal().reveal('.reveal',  { distance: '100px', duration: 1500, easing: 'cubic-bezier(.215, .61, .355, 1)', interval: 600 });
+
+  ScrollReveal().reveal('.zoom',  { duration: 1500, easing: 'cubic-bezier(.215, .61, .355, 1)', interval: 200, scale: 0.65, mobile: false});
+
+
+
+</script>
+
+<script src="Script.js"></script>
+
+    </body>
 </html>
